@@ -1,0 +1,36 @@
+Docker-  containerization platform
+
+
+step1-  docker engine
+
+
+amzon linux- package manager-  yum
+
+ubuntu - apt
+
+
+
+sudo systemctl start docker
+
+
+yum install docker.io
+
+
+docker --version
+
+
+docker pull nginx or mysql
+
+
+docker images
+
+
+docker run -d --name nginx -p 80:80 nginx
+
+
+Dockerfile-- instruction docker image build
+
+
+docker build -t mynginx:v1 .
+
+docker stop nginx

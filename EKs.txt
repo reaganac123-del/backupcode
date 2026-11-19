@@ -1,0 +1,19 @@
+EKS- elastic kubernet server
+
+containerzation  platform
+
+
+Kubernets objects
+
+Pod- no of number containers- smallest deployment unit in kubernets
+
+Namespace- isolated environment-
+
+replicaset- recreate pods- desired state = current state     example  5 pod- > 
+
+
+deployment- create pod + replicaset-+ deployment stertergy  (rolling update,canary deployment, blue- green deployment) example: web server
+
+deamonset- no of pod= no of nodes(ec2)  example: log monitoring tool server
+
+statefullset- uniq name+ order create = example: DB server(mysql)
